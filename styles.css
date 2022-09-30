@@ -15,7 +15,7 @@ html {
 /* LAYOUT STYLEs */
 body {
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   width: 100vw;
 }
 
@@ -26,6 +26,7 @@ body {
   align-items: center;
   background-color: hsla(185, 75%, 39%, 1);
   overflow: hidden;
+  position: relative;
 }
 
 .page-wrapper::before {
