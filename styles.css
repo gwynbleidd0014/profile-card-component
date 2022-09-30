@@ -13,15 +13,18 @@ html {
 }
 
 /* LAYOUT STYLEs */
+html,
 body {
   overflow: hidden;
 }
+
 .page-wrapper {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: hsla(185, 75%, 39%, 1);
+  overflow: hidden;
 }
 
 .page-wrapper::before {
